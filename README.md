@@ -41,7 +41,7 @@ It is always possible to leave the mailing list.
 More information can be found at https://jitsi-admin.de
 
 
-#How to Install Jitsi-Admin
+# How to Install Jitsi-Admin
 Jitsi-Admin is a tool that allows you to manage users and rooms on your Jitsi Meet instance. There are two ways to install Jitsi-Admin, depending on your needs.
 
 Docker Installation
