@@ -44,7 +44,7 @@ More information can be found at https://jitsi-admin.de
 # How to Install Jitsi-Admin
 Jitsi-Admin is a tool that allows you to manage users and rooms on your Jitsi Meet instance. There are two ways to install Jitsi-Admin, depending on your needs.
 
-Docker Installation
+## Docker Installation
 If you want to start with a fresh installation, then select this installation method. Here are the prerequisites:
 
 * unused port 80 (If you want to use letsencrypt which is shipped with the installation you need port 443 too)
@@ -61,7 +61,7 @@ sudo bash installDocker.sh
 ```
 Follow the instructions that are shown to you.
 
-Normal Installation
+## Normal Installation
 This installation method is perfect if you have your own Keycloak SSO Server and want to get your Jitsi-Admin. Here are the prerequisites:
 
 * Keycloak SSO Server (If you don't know what a Keycloak is, we recommend you install the Docker version using the Docker Installation method)
