@@ -13,6 +13,7 @@ echo ""
 echo ******INSTALLING DEPENDENCIES******
 echo ""
 sudo apt update
+sudo apt-get upgrade -y
 sudo apt install -y \
     git curl lsb-release ca-certificates apt-transport-https software-properties-common gnupg2 mysql-server \
     nginx nginx-extras\

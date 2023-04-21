@@ -54,14 +54,6 @@ If you want to start with a fresh installation, then select this installation me
 * Docker engine version > 19.03.0 Docker Version check
 * Tested with docker-compose version 2.4 and 2.7
 
-To get the right Docker version, type the following command in your terminal:
-
-```bash
-curl -SL https://github.com/docker/compose/releases/download/v2.7.0/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
-chmod +x  /usr/local/bin/docker-compose
-docker-compose -v
-```
-Once you have the right Docker version installed, run the installation script:
 
 ```bash
 wget https://github.com/jitsi-contrib/jitsi-admin/raw/main/installDocker.sh
