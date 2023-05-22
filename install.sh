@@ -10,5 +10,5 @@ EOF
 
 BRANCH=${1:-master}
 wget -O tempinstaller.sh https://github.com/H2-invent/jitsi-admin/raw/$BRANCH/install.sh
-sudo bash tempinstaller.sh
+sudo bash tempinstaller.sh $BRANCH
 rm tempinstaller.sh
